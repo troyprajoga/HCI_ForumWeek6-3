@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(230, 229, 229);
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(62, 242, 71);
+    padding: 10px;
+    border-radius: 5%;
+    background-color: rgb(26, 145, 61);
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.navbar h1{
+    font-size:70px;
+    font-family: "roboto mono", monospace;
+    color:white;
+}
+.toko{
+    width:80px;
+}
+.container{
+    width: 100%;
+    height:auto;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-flow:wrap;
+    flex-direction: row;
+}
+.content{
+    width:85%;
+    height:75px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(62, 242, 71);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "roboto mono", monospace;
+    box-sizing: border-box;
+    margin:10px;
+    border-radius: 10%;
+}
+.content:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.content h1{
+    font-size:55px;
+}
+.link,.link a {
+    text-decoration: none;
+    color: inherit;
+}
